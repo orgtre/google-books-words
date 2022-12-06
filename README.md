@@ -1,0 +1,3 @@
+# Google Books words
+
+This repository (work-in-progress) creates a dataset of all the words in the [Google Books Ngram Corpus](#the-underlying-corpus) (v3/20200217, all languages). Other than just listing the words and their frequency, like is already done in the repositories [hackerb9/gwordlist](https://github.com/hackerb9/gwordlist) and [orgtre/google-books-ngram-frequency](https://github.com/orgtre/google-books-ngram-frequency), it is the goal to include additional useful metadata for each word, such as part-of-speech (POS) tags and its word family. This would then be an even more useful resource for creating language learning materials.
