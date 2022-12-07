@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "google-books-words"
+version = "0.1.0"
+authors = ["orgtre"]
+description = ""
+readme = "README.md"
+packages = [{include = "google_books_words"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+pandas = "^1.5.2"
+pyarrow = "^10.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
